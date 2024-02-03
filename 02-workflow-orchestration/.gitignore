@@ -157,6 +157,7 @@ docker-compose.override.yml
 **/.terraform*
 *.tfstate*
 *.zip
+credentials/
 
 # vscode
 .vscode/
@@ -172,5 +173,3 @@ scratch*
 magic-zoomcamp
 *.json
 
-# terraform
-credentials/
