@@ -17,7 +17,7 @@ def transform(data, *args, **kwargs):
     # Rename Columns
     data = data.rename(columns={
     'VendorID': 'vendor_id',
-    'RateCodeID':'ratecode_id',
+    'RatecodeID':'ratecode_id',
     'PULocationID' : 'pu_location_id',
     'DOLocationID' : 'do_location_id' 
     })
